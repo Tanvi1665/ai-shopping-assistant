@@ -57,31 +57,31 @@ ai_shopping_assistant/
 ```bash
 git clone https://github.com/your-username/ai-shopping-assistant.git
 cd ai-shopping-assistant
-
-**### 2.Install the dependencies**
-
-```bash
+2. Install the dependencies
+bash
 pip install -r requirements.txt
 Note: If pyaudio fails to install (common on Windows), download a prebuilt .whl file from:
 
 🔗 https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
 
 Then install it using:
-```bash
+
+bash
 pip install path-to-downloaded.whl
-
-**###3. Run the application**
-```bash
+3. Run the application
+bash
 python main_app.py
+🗣️ Say: "What is in front of me"
+✅ The assistant will identify the object and speak its name and information.
 
----
-
-**💡 Future Improvements**
+💡 Future Improvements
 Detect and describe multiple objects at once
-Add continuous (loop-based) conversation mode
-Pull live product info from online stores (e.g., Amazon)
-Build a mobile version using Flask or Kivy
 
+Add continuous (loop-based) conversation mode
+
+Pull live product info from online stores (e.g., Amazon)
+
+Build a mobile version using Flask or Kivy
 
 
 
