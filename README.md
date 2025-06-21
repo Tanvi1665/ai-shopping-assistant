@@ -42,6 +42,18 @@ ai_shopping_assistant/
 └── README.md # Project description
 
 ---
+
+This version:
+
+Keeps commands in code blocks
+
+Keeps text and links outside (so they remain clickable)
+
+Looks clean and professional
+
+markdown
+Copy
+Edit
 ## 🛠️ Installation
 
 ### 1. Clone the repository
@@ -49,16 +61,17 @@ ai_shopping_assistant/
 ```bash
 git clone https://github.com/your-username/ai-shopping-assistant.git
 cd ai-shopping-assistant
-
-**2. Install dependencies**
+2. Install dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
+Note: If pyaudio fails to install (common on Windows), download a prebuilt .whl file from the link below and install it manually:
 
-⚠️ If pyaudio fails to install (common on Windows), download a prebuilt .whl from
-https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
-and install it with:
+🔗 https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+
+Then install it using:
+
 bash
 Copy
 Edit
@@ -66,15 +79,17 @@ pip install path-to-downloaded.whl
 yaml
 Copy
 Edit
+
 ---
 
-### ✅ Full Section Flow
+### ✅ Key Fixes Made:
+- The **text and links** are now *outside* of the ` ```bash ` code block
+- This ensures:
+  - Links are clickable 🔗
+  - Text is styled properly
+  - Code is still shown in boxes
 
-This version:
-- Uses proper code blocks
-- Keeps bullet/step style
-- Handles `pyaudio` install clearly
-
+---
 
 
 
