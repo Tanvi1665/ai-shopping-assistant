@@ -74,7 +74,6 @@ Then install it using:
 bash
 pip install path-to-downloaded.whl
 
-
 ---
 
 
