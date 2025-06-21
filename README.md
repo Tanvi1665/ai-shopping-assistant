@@ -61,10 +61,9 @@ Edit
 ```bash
 git clone https://github.com/your-username/ai-shopping-assistant.git
 cd ai-shopping-assistant
+
 2. Install dependencies
 bash
-Copy
-Edit
 pip install -r requirements.txt
 Note: If pyaudio fails to install (common on Windows), download a prebuilt .whl file from the link below and install it manually:
 
@@ -73,23 +72,12 @@ Note: If pyaudio fails to install (common on Windows), download a prebuilt .whl 
 Then install it using:
 
 bash
-Copy
-Edit
 pip install path-to-downloaded.whl
-yaml
-Copy
-Edit
+
 
 ---
 
-### ✅ Key Fixes Made:
-- The **text and links** are now *outside* of the ` ```bash ` code block
-- This ensures:
-  - Links are clickable 🔗
-  - Text is styled properly
-  - Code is still shown in boxes
 
----
 
 
 
